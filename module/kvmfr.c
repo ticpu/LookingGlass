@@ -656,5 +656,5 @@ MODULE_AUTHOR("Geoffrey McRae <geoff@hostfission.com>");
 MODULE_AUTHOR("Guanzhong Chen <quantum2048@gmail.com>");
 MODULE_VERSION("0.0.9");
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(5,16,0)
-MODULE_IMPORT_NS(DMA_BUF);
+MODULE_IMPORT_NS("DMA_BUF");
 #endif
